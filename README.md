@@ -10,8 +10,6 @@ This README provides a summary of how the `install-docker.sh` script installs Do
 5. [Verification](#verification)
 6. [Further Reading](#further-reading)
 
----
-
 ## Overview
 
 This script ensures any outdated or conflicting Docker packages are removed, then sets up the official Docker repository on your system. It installs Docker CE, Docker Compose, and related plugins. Finally, it verifies the installation and optionally configures your system so you can run Docker commands without using `sudo`.
